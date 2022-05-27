@@ -9,7 +9,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <!-- short cut for list
+    header.header>div.logo{Vaction Calling}+nav>ul>li*3>a-->
+    <!--<header class="header">
         <div class="logo">Vaction Calling</div>
         <nav>
             <ul>
@@ -17,8 +19,19 @@
                 <li><a href="href">Travel</a></li>
                 <li><a href="href">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </nav>-->
+        <header class="header">
+            <div class="logo">VactionCalling</div>
+            <nav>
+                <ul>
+                    <li><a href="href">Home</a></li>
+                    <li><a href="href">Travel</a></li>
+                    <li><a href="href">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- below section for containing images shortcut below
+        section*3>div.banner>img+div.banner_title{france}-->
     <section>
         <div class="banner">
             <img src="./images/pexels-alex-azabache-4039920.jpg" alt="img1">
@@ -35,9 +48,13 @@
             <div class="banner__title">Italy</div>
         </div>
     </section>
+    <!-- Adding sliders one from left and one from right
+    div.slider.slider1*2-->
     <div class="slider slider1"></div>
     <div class="slider slider2"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script> -->
+    <!--GSAP Library JS Animations-->   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./landingPage.js"></script>
 </body>
 </html>

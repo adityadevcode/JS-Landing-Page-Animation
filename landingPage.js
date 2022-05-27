@@ -1,9 +1,10 @@
+// each of the element we will take reference first slider,banner, title,log, navbar
 const slider = document.querySelectorAll(".slider");
 const banner = document.querySelectorAll(".banner");
 const bannerTitle = document.querySelectorAll(".banner__title");
 const logo = document.querySelectorAll(".logo");
 const nav = document.querySelectorAll("nav");
-
+//timeline max we are using js animations
 const t1 = new TimelineMax();
 
 t1.fromTo(banner[0], 1, { x: "-100%" }, { x: "-5%", ease: Power2.easeInOut });
